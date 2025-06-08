@@ -122,11 +122,11 @@ conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363346182554779@newsletter',
-            newsletterName: "×zanta_pro ᴜꜱᴇʀ ʙᴏᴛ",
+            newsletterName: "ʙᴜɴɴʏ ᴍᴅ ᴜꜱᴇʀ ʙᴏᴛ",
             serverMessageId: 999
         },
         externalAdReply: {
-            title: '×zanta_pro ᴜꜱᴇʀ ʙᴏᴛ',
+            title: 'ʙᴜɴɴʏ ᴍᴅ ᴜꜱᴇʀ ʙᴏᴛ',
             body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
             mediaType: 1,
             sourceUrl: "https://github.com/NIKO-PAMIYA",
@@ -158,13 +158,13 @@ conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", {
                 const welcome = getWelcome();
                 if (welcome === true) {
                 message = `
-    ┏━━━━━❮  🧚‍♂️⃟💚 ×zanta_pro 💚⃟🧚‍♂️ ❯━━━━━━━━┓
+    ┏━━━━━❮  🧚‍♂️⃟💚 𝐁𝐔𝐍𝐍𝐘 𝐌𝐃 💚⃟🧚‍♂️ ❯━━━━━━━━┓
     
     *Hey @${participant.split('@')[0]}!* 👋
 
     WELCOME TO ${groupName}
     
-    > 🎋⃟💚 *×zanta_pro WhatsApp Bot* is up and running!
+    > 🎋⃟💚 *BUNNY MD WhatsApp Bot* is up and running!
                Runtime : ${runtime(process.uptime())}
     > 🛸 *Created by:* Mr Niko Pamiya | Janith Rashmika 
     
@@ -176,14 +176,14 @@ conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", {
     
     > *Stay connected and enjoy the services!* 🎋
     
- 🎋⃟💚  ×zanta_pro ᴜꜱᴇʀ ʙᴏᴛ ✪
+ 🎋⃟💚  ʙᴜɴɴʏ ᴍᴅ ᴜꜱᴇʀ ʙᴏᴛ ✪
     *💻 GitHub:* github.com/NIKO-PAMIYA/BUNNY-MD
                 `; };
             } else if (action === 'remove') {
                 const welcome = getWelcome();
                 if (welcome === true){
                 message = `
-    ┏━━━━━❮  🧚‍♂️⃟💚 ×zanta_pro 💚⃟🧚‍♂️ ❯━━━━━━━━┓
+    ┏━━━━━❮  🧚‍♂️⃟💚 𝐁𝐔𝐍𝐍𝐘 𝐌𝐃 💚⃟🧚‍♂️ ❯━━━━━━━━┓
     
     😔 *Goodbye @${participant.split('@')[0]}!*
 
@@ -194,7 +194,7 @@ conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", {
     
     *If you ever decide to come back, you'll always be welcome!*
     *_හායී මැණික කොහොමද?_*
-     🎋⃟💚  ×zanta_pro ᴜꜱᴇʀ ʙᴏᴛ ✪
+     🎋⃟💚  ʙᴜɴɴʏ ᴍᴅ ᴜꜱᴇʀ ʙᴏᴛ ✪
     *💻 GitHub:* github.com/NIKO-PAMIYA/BUNNY-MD
                 `;
             }
@@ -535,15 +535,15 @@ const bad = await fetchJson(`https://raw.githubusercontent.com/Mrrashmika/Databa
  
   if ( isGroup && !isAdmins && !isMe && !isOwner && isBotAdmins ) {
   if ( mek.id.startsWith("BAE") ) {
-    if (config.×zanta_pro == true){
-await conn.sendMessage(from, { text: "❌ ```Another Bot's message Detected :``` 📚 *Removed By ×zanta_pro* ❗\nAnti Bot System on..." })
-if ( config.×zanta_pro == "true" && isBotAdmins ) {
+    if (config.ANTI_BOT == true){
+await conn.sendMessage(from, { text: "❌ ```Another Bot's message Detected :``` 📚 *Removed By Queen Anju* ❗\nAnti Bot System on..." })
+if ( config.ANTI_BOT == "true" && isBotAdmins ) {
 await conn.sendMessage(from, { delete: mek.key })
 await conn.groupParticipantsUpdate(from,[sender], 'remove')
   }}
-    if ( mek.id.startsWith("×zanta_pro") ) {
+    if ( mek.id.startsWith("QUEENAMDI") ) {
         if (config.ANTI_BOT == true){
-await conn.sendMessage(from, { text: "❌ ```Another Bot's message Detected :``` *×zanta_pro* ❗\n*Removed By ×zanta_pro* ❗\nAnti Bot System on..." })
+await conn.sendMessage(from, { text: "❌ ```Another Bot's message Detected :``` *💃 Queen Amdi* ❗\n*Removed By Queen Anju* ❗\nAnti Bot System on..." })
 if ( config.ANTI_BOT == "true" && isBotAdmins ) {
 await conn.sendMessage(from, { delete: mek.key })
 await conn.groupParticipantsUpdate(from,[sender], 'remove')
@@ -558,9 +558,9 @@ await conn.groupParticipantsUpdate(from,[sender], 'remove')
     })
     }
     app.get("/", (req, res) => {
-    res.send("×ᴢᴀɴᴛᴀ_ᴘʀᴏ ᴜꜱᴇʀ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ");
+    res.send("🍁ʙᴜɴɴʏ ᴍᴅ ᴜꜱᴇʀ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ🍁");
     });
-    app.listen(port, () => console.log(`×zanta_pro BOT SEVER listening on port http://localhost:${port} 🌏`));
+    app.listen(port, () => console.log(`BUNNY MD BOT SEVER listening on port http://localhost:${port} 🌏`));
     setTimeout(() => {
     connectToWA()
     }, 4000);  
