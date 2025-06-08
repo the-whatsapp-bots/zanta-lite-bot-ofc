@@ -1,23 +1,23 @@
 {
-  "name": "Queen Adiza",
+  "name": "×zanta_pro",
   "version": "2.4.2",
-  "description": "Adiza, the best WhatsApp Bot",
+  "description": "×zanta_pro, the best WhatsApp Bot",
   "logo": "https://files.catbox.moe/rhjkfl.jpg",
   "keywords": ["whatsapp", "bot", "md"],
-  "repository": "https://github.com/Matri199/Queen-Adiza",
+  "repository": "https://github.com/Matri199/×zanta_pro",
   "stack": "container",
   "scripts": {
     "start": "node index.js"
   },
   "env": {
     "SESSION_ID": {
-      "description": "Enter your Adiza session id here; must start with QUEEN-ADIZA~",
+      "description": "Enter your Adiza session id here; must start with ×zanta_pro~",
       "value": "",
       "required": false
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "Adiza-Bot",
+      "value": "×zanta_pro",
       "required": false
     },
     "OWNER_NUMBER": {
@@ -32,12 +32,12 @@
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "Adiza",
+      "value": "×zanta_pro",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "Adiza",
+      "value": "×zanta_pro",
       "required": false
     },
     "HEROKU_API_KEY": {
