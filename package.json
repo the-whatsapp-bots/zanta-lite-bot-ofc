@@ -2,7 +2,7 @@
     "name": "kavishan-md",
     "version": "1.0.0",
     "scripts": {
-        "start": "pm2 start kavishan.js --deep-monitoring --attach --name kavishan",
+        "start": "pm2 start index.js --deep-monitoring --attach --name kavishan",
         "stop": "pm2 stop kavishan",
         "restart": "pm2 restart kavishan && pm2 logs",
         "stash": "git stash && git stash drop"
