@@ -1,12 +1,12 @@
 {
-  "name": "queen_anju",
-  "version": "4",
-  "description": "A Simple WhatsApp bot created By King-Rashmika",
-  "main": "queen.js",
+  "name": "×zanta_pro",
+  "version": "1",
+  "description": "A Simple WhatsApp bot created By King-zanta",
+  "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Queen_Anju",
-    "stop": "pm2 stop Queen_Anju",
-    "restart": "pm2 restart Queen_Anju"
+    "start": "pm2 start index.js --deep-monitoring --attach --×zanta_pro",
+    "stop": "pm2 stop ×zanta_pro",
+    "restart": "pm2 restart "
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
